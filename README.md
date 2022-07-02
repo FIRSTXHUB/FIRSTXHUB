@@ -9,7 +9,7 @@ local page4 = tap1:addpage()
 page1:Ti("Teleport X Die \nคำเตือนถ้ามีของสำคัญอย่าใช้\tเป็นการรีตัว!")
 
 page1:Button("คาเฟ่", function(value)
-    game:GetService("Workspace").Characters.LocalPlayer.Humanoid.Health = 0
+    game.Players.LocalPlayer.Character.Humanoid.Health = 0
 	wait(1)
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-361.497009, 149.246094, 250.991974, 0.997700334, 0, 0.067779839, -0, 1.00000012, -0, -0.067779839, 0, 0.997700334)
 	wait(1)
@@ -20,7 +20,7 @@ page1:Button("คาเฟ่", function(value)
 end)
 
 page1:Button("ป่าเขียว", function(value)
-    game:GetService("Workspace").Characters.LocalPlayer.Humanoid.Health = 0
+    game.Players.LocalPlayer.Character.Humanoid.Health = 0
 	wait(1)
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2219.93237, 72.344101, -2706.96094, 0.326738358, -4.67980499e-09, 0.945114851, 4.79308646e-08, 1, -1.16187433e-08, -0.945114851, 4.90964602e-08, 0.326738358)
 	wait(1)
@@ -31,7 +31,7 @@ Event:InvokeServer(A_1)
 end)
 
 page1:Button("พังค์ ฮาซาร์ด", function(value)
-    game:GetService("Workspace").Characters.LocalPlayer.Humanoid.Health = 0
+    game.Players.LocalPlayer.Character.Humanoid.Health = 0
 	wait(1)
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5528.87061, 73.9775925, -5234.93457, -0.426287115, -2.65395155e-08, 0.904587924, 5.45683996e-08, 1, 5.50541515e-08, -0.904587924, 7.28307938e-08, -0.426287115)
 	wait(1)
@@ -42,7 +42,7 @@ Event:InvokeServer(A_1)
 end)
 
 page1:Button("ดันลอว์", function(value)
-    game:GetService("Workspace").Characters.LocalPlayer.Humanoid.Health = 0
+    game.Players.LocalPlayer.Character.Humanoid.Health = 0
 	wait(1)
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5528.87061, 73.9775925, -5234.93457, -0.426287115, -2.65395155e-08, 0.904587924, 5.45683996e-08, 1, 5.50541515e-08, -0.904587924, 7.28307938e-08, -0.426287115)
 	wait(1)
@@ -58,7 +58,7 @@ local Tw = TweenService:Create(game.Players.LocalPlayer.Character.HumanoidRootPa
 end)
 
 page1:Button("ดันทำผลตื่น", function(value)
-    game:GetService("Workspace").Characters.LocalPlayer.Humanoid.Health = 0
+    game.Players.LocalPlayer.Character.Humanoid.Health = 0
 	wait(1)
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5528.87061, 73.9775925, -5234.93457, -0.426287115, -2.65395155e-08, 0.904587924, 5.45683996e-08, 1, 5.50541515e-08, -0.904587924, 7.28307938e-08, -0.426287115)
 	wait(1)
