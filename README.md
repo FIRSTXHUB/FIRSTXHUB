@@ -49,7 +49,7 @@ page1:Button("ดันลอว์", function(value)
 local A_1 = "SetSpawnPoint"
 local Event = game:GetService("ReplicatedStorage").Remotes["CommF_"]
 Event:InvokeServer(A_1)
-wait(3)
+wait(4)
 local TweenService = game:GetService("TweenService")
 
 local Tw = TweenService:Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(3, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut,0,false,0),
@@ -65,7 +65,7 @@ page1:Button("ดันทำผลตื่น", function(value)
 local A_1 = "SetSpawnPoint"
 local Event = game:GetService("ReplicatedStorage").Remotes["CommF_"]
 Event:InvokeServer(A_1)
-wait(3)
+wait(4)
 local TweenService = game:GetService("TweenService")
 
 local Tw = TweenService:Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(3, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut,0,false,0),
